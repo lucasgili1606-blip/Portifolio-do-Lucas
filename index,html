@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Lucas Digital — Audiovisual + Tráfego Pago para Vender Mais</title>
+<meta name="description" content="Fotografia e vídeo de alto impacto combinados com tráfego pago no Instagram para marcas e negócios de Araranguá e Santa Catarina venderem mais.">
+
+<!-- Google Fonts: Montserrat (display) + Inter (corpo/UI) -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- =========================================================
+     HEADER
+     ========================================================= -->
+<header class="site-header">
+  <div class="nav">
+    <a href="#home" class="logo">LUCAS<span>.</span>DIGITAL</a>
+    <nav class="nav-links">
+      <a href="#home">Home</a>
+      <a href="#portfolio">Portfólio</a>
+      <a href="#metodo">Método</a>
+      <a href="#sobre">Sobre</a>
+      <a href="#contato">Contato</a>
+    </nav>
+    <a href="#contato" class="btn btn-primary nav-cta">Solicitar Orçamento</a>
+    <button class="nav-toggle" id="navToggle" aria-label="Abrir menu"><span></span><span></span><span></span></button>
+  </div>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#home">Home</a>
+    <a href="#portfolio">Portfólio</a>
+    <a href="#metodo">Método</a>
+    <a href="#sobre">Sobre</a>
+    <a href="#contato">Contato</a>
+    <a href="#contato" class="btn btn-primary">Solicitar Orçamento</a>
+  </div>
+</header>
+
+<!-- =========================================================
+     HERO
+     ========================================================= -->
+<section class="hero" id="home">
+  <div class="wrap hero-grid">
+    <div>
+      <div class="hero-tag"><span class="dot"></span> Fotografia · Vídeo · Tráfego pago · Araranguá, SC</div>
+      <h1>Audiovisual de alto impacto <em>para sua marca vender mais</em> no Instagram</h1>
+      <p class="lead">Produzo foto e vídeo que param o scroll e coloco isso para rodar em anúncios estratégicos — para você transformar visualização em cliente de verdade.</p>
+      <div class="hero-actions">
+        <a href="https://wa.me/5548996228457?text=Ol%C3%A1!%20Quero%20um%20or%C3%A7amento." class="btn btn-primary" target="_blank" rel="noopener">Falar no WhatsApp →</a>
+        <a href="#portfolio" class="btn btn-ghost">Ver portfólio</a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <img src="https://picsum.photos/id/1005/900/1100" alt="Trabalho em destaque — substitua pela sua imagem">
+      <div class="badge"><span class="rec"></span> Gravando agora</div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     MÉTRICAS / PROPOSTA DE VALOR
+     ========================================================= -->
+<section class="metrics">
+  <div class="wrap">
+    <div class="eyebrow">Por que funciona</div>
+    <h2 class="section-title" style="max-width:640px;">Audiovisual bonito não basta. O seu precisa vender.</h2>
+    <p class="section-lead">Cada entrega já nasce pensada para virar anúncio — formato, corte e tempo de tela pensados para performance no Instagram.</p>
+    <div class="metrics-grid">
+      <div class="metric"><strong>Estratégia</strong><span>Cada entrega pensada para performar, não só para ser bonita</span></div>
+      <div class="metric"><strong>Audiovisual + Ads</strong><span>Produção e tráfego pago sob a mesma direção</span></div>
+      <div class="metric"><strong>Estética moderna</strong><span>Fotos e vídeos com identidade dinâmica e profissional</span></div>
+      <div class="metric"><strong>Acompanhamento</strong><span>Suporte próximo do briefing até o anúncio no ar</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     PORTFÓLIO FILTRÁVEL
+     ========================================================= -->
+<section id="portfolio">
+  <div class="wrap">
+    <div class="eyebrow">Trabalhos</div>
+    <h2 class="section-title">Portfólio</h2>
+    <p class="section-lead">Uma seleção de entregas recentes. Substitua pelas suas fotos e vídeos reais.</p>
+
+    <div class="filters" id="filters">
+      <button class="filter-btn active" data-filter="all">Todos</button>
+      <button class="filter-btn" data-filter="video">Vídeos / Reels</button>
+      <button class="filter-btn" data-filter="corporativo">Fotografia Corporativa</button>
+      <button class="filter-btn" data-filter="produto">Produtos / Comercial</button>
+      <button class="filter-btn" data-filter="trafego">Tráfego Pago</button>
+    </div>
+
+    <div class="portfolio-grid" id="portfolioGrid">
+      <div class="p-item" data-cat="corporativo" data-type="image" data-src="https://picsum.photos/id/1011/1000/1200" data-title="Campanha institucional" data-desc="Sessão corporativa para redes sociais.">
+        <img src="https://picsum.photos/id/1011/700/900" alt="Corporativo 1">
+        <div class="overlay"><div class="cat">Fotografia Corporativa</div><div class="title">Campanha institucional</div></div>
+      </div>
+      <div class="p-item" data-cat="video" data-type="video" data-src="" data-title="Reel de bastidores" data-desc="Vídeo vertical feito para Reels — adicione o link do seu vídeo aqui.">
+        <img src="https://picsum.photos/id/1025/700/900" alt="Vídeo 1">
+        <div class="play">▶</div>
+        <div class="overlay"><div class="cat">Vídeo / Reel</div><div class="title">Bastidores da marca</div></div>
+      </div>
+      <div class="p-item" data-cat="produto" data-type="image" data-src="https://picsum.photos/id/1035/1000/1200" data-title="Still de produto" data-desc="Fotografia de produto em estúdio.">
+        <img src="https://picsum.photos/id/1035/700/900" alt="Produto 1">
+        <div class="overlay"><div class="cat">Produtos/Comercial</div><div class="title">Still de produto</div></div>
+      </div>
+      <div class="p-item" data-cat="produto" data-type="image" data-src="https://picsum.photos/id/1041/1000/1200" data-title="Lifestyle de produto" data-desc="Fotografia lifestyle para e-commerce.">
+        <img src="https://picsum.photos/id/1041/700/900" alt="Produto 2">
+        <div class="overlay"><div class="cat">Produtos/Comercial</div><div class="title">Lifestyle</div></div>
+      </div>
+      <div class="p-item" data-cat="video" data-type="video" data-src="" data-title="Case de campanha" data-desc="Mini-documentário de campanha — adicione o link do seu vídeo aqui.">
+        <img src="https://picsum.photos/id/1050/700/900" alt="Vídeo 2">
+        <div class="play">▶</div>
+        <div class="overlay"><div class="cat">Vídeo / Reel</div><div class="title">Case de campanha</div></div>
+      </div>
+      <div class="p-item" data-cat="corporativo" data-type="image" data-src="https://picsum.photos/id/1074/1000/1200" data-title="Retrato executivo" data-desc="Sessão de retratos para equipe.">
+        <img src="https://picsum.photos/id/1074/700/900" alt="Corporativo 2">
+        <div class="overlay"><div class="cat">Fotografia Corporativa</div><div class="title">Retrato executivo</div></div>
+      </div>
+      <div class="p-item" data-cat="trafego" data-type="image" data-src="https://picsum.photos/id/180/1000/1200" data-title="Resultado de campanha" data-desc="Print de resultado de campanha no Meta Ads — substitua por um case real seu.">
+        <img src="https://picsum.photos/id/180/700/900" alt="Tráfego pago 1">
+        <div class="overlay"><div class="cat">Tráfego Pago</div><div class="title">Resultado de campanha</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Modal de visualização -->
+<div class="modal" id="modal">
+  <button class="modal-close" id="modalClose" aria-label="Fechar">✕</button>
+  <div class="modal-content" id="modalContent"></div>
+</div>
+
+<!-- =========================================================
+     MÉTODO
+     ========================================================= -->
+<section id="metodo">
+  <div class="wrap">
+    <div class="eyebrow">Como funciona</div>
+    <h2 class="section-title">Um processo simples, do briefing ao anúncio no ar</h2>
+    <p class="section-lead">Três etapas, sem enrolação — para você saber exatamente o que esperar em cada fase.</p>
+    <div class="method-grid">
+      <div class="method-step">
+        <div class="num">01</div>
+        <h3>Alinhamento de estratégia</h3>
+        <p>Entendemos seu negócio, público e objetivo de venda antes de ligar qualquer câmera.</p>
+      </div>
+      <div class="method-step">
+        <div class="num">02</div>
+        <h3>Captação de foto e vídeo</h3>
+        <p>Produção do material pensado desde o início para performar como anúncio.</p>
+      </div>
+      <div class="method-step">
+        <div class="num">03</div>
+        <h3>Anúncios no Instagram (Meta Ads)</h3>
+        <p>O conteúdo entra em campanha de tráfego pago, com acompanhamento de resultado e ajustes.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     SOBRE
+     ========================================================= -->
+<section id="sobre">
+  <div class="wrap about-grid">
+    <div class="about-photo">
+      <img src="https://picsum.photos/id/64/800/1000" alt="Foto profissional — substitua pela sua">
+    </div>
+    <div class="about-text">
+      <div class="eyebrow">Quem faz</div>
+      <h2 class="section-title">Sobre mim</h2>
+      <p>Sou Lucas Mathues, fotógrafo, videomaker e profissional de tráfego pago de Araranguá, Santa Catarina. Meu trabalho une criatividade, audiovisual e estratégia para transformar ideias em conteúdos que chamam atenção e geram resultados.</p>
+      <p>Busco sempre criar imagens e vídeos com uma estética moderna, dinâmica e profissional, entendendo que um bom conteúdo não deve apenas ser bonito, mas também comunicar, conectar e gerar impacto. Meu diferencial está na combinação entre produção audiovisual e estratégia digital: além de criar fotos e vídeos, também trabalho com tráfego pago, unindo criatividade e estratégia para ajudar marcas e negócios a se posicionarem melhor no digital.</p>
+      <ul class="about-list">
+        <li>Foco em audiovisual voltado para performance</li>
+        <li>Gestão de tráfego pago integrada à produção</li>
+        <li>Acompanhamento de resultado pós-entrega</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     DEPOIMENTOS
+     ========================================================= -->
+<section id="depoimentos">
+  <div class="wrap">
+    <div class="eyebrow">Prova social</div>
+    <h2 class="section-title">O que meus clientes dizem</h2>
+    <p class="section-lead">Exemplos ilustrativos — serão substituídos por avaliações reais conforme os primeiros clientes forem atendidos.</p>
+    <div class="testimonials-grid">
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>"O trabalho ficou muito acima do que esperávamos. As imagens conseguiram transmitir exatamente a identidade da nossa marca."</p>
+        <div class="who"><img src="https://picsum.photos/id/91/100/100" alt=""><div><strong>Exemplo de depoimento</strong><span>Cliente ilustrativo</span></div></div>
+      </div>
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>"Além da qualidade dos vídeos, o processo foi muito profissional e o resultado deixou nosso conteúdo muito mais valorizado."</p>
+        <div class="who"><img src="https://picsum.photos/id/92/100/100" alt=""><div><strong>Exemplo de depoimento</strong><span>Cliente ilustrativo</span></div></div>
+      </div>
+      <div class="testimonial">
+        <div class="stars">★★★★★</div>
+        <p>"A combinação entre o conteúdo produzido e a estratégia de anúncios fez toda a diferença para nossa presença digital."</p>
+        <div class="who"><img src="https://picsum.photos/id/93/100/100" alt=""><div><strong>Exemplo de depoimento</strong><span>Cliente ilustrativo</span></div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- =========================================================
+     CONTATO / CTA FINAL
+     ========================================================= -->
+<section class="contact" id="contato">
+  <div class="wrap contact-grid">
+    <div class="contact-info">
+      <div class="eyebrow">Vamos conversar</div>
+      <h2 class="section-title">Pronto para o seu audiovisual vender mais?</h2>
+      <p>Preencha o formulário ou chame direto no WhatsApp. Respondo pessoalmente.</p>
+      <div class="contact-direct">
+        <a href="https://wa.me/5548996228457" target="_blank" rel="noopener"><span class="ic">📱</span> (48) 99622-8457</a>
+        <a href="mailto:lucasgili1606@gmail.com"><span class="ic">✉️</span> lucasgili1606@gmail.com</a>
+        <a href="https://instagram.com/1lucasmatheus_" target="_blank" rel="noopener"><span class="ic">📸</span> @1lucasmatheus_</a>
+      </div>
+    </div>
+    <form class="quote-form" id="quoteForm">
+      <div class="field">
+        <label for="f-name">Nome</label>
+        <input type="text" id="f-name" name="name" required>
+      </div>
+      <div class="field">
+        <label for="f-business">Tipo de negócio</label>
+        <input type="text" id="f-business" name="business" placeholder="Ex: loja de roupas, clínica, infoproduto" required>
+      </div>
+      <div class="field">
+        <label for="f-goal">Objetivo</label>
+        <select id="f-goal" name="goal" required>
+          <option value="">Selecione</option>
+          <option>Aumentar vendas</option>
+          <option>Ganhar autoridade</option>
+          <option>Lançar produto/serviço</option>
+          <option>Outro</option>
+        </select>
+      </div>
+      <div class="field">
+        <label for="f-whatsapp">WhatsApp</label>
+        <input type="tel" id="f-whatsapp" name="whatsapp" placeholder="(48) 99622-8457" required>
+      </div>
+      <button type="submit" class="btn btn-primary">Solicitar Orçamento</button>
+      <div class="form-msg" id="formMsg"></div>
+    </form>
+  </div>
+</section>
+
+<!-- =========================================================
+     RODAPÉ
+     ========================================================= -->
+<footer class="site-footer">
+  <div class="wrap footer-grid">
+    <span>© 2026 Seu Nome. Todos os direitos reservados.</span>
+    <div class="footer-social">
+      <a href="https://instagram.com/1lucasmatheus_" target="_blank" rel="noopener">Instagram</a>
+      <a href="#" target="_blank" rel="noopener">Behance</a>
+      <a href="https://wa.me/5548996228457" target="_blank" rel="noopener">WhatsApp</a>
+    </div>
+  </div>
+</footer>
+
+<!-- Botão flutuante WhatsApp -->
+<a class="wa-float" href="https://wa.me/5548996228457?text=Ol%C3%A1!%20Vi%20seu%20site%20e%20quero%20saber%20mais."
+   target="_blank" rel="noopener" aria-label="Falar no WhatsApp">
+  <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><path d="M17.5 14.4c-.3-.1-1.7-.8-2-1-.3-.1-.5-.1-.7.1-.2.3-.7 1-.9 1.2-.2.2-.3.2-.6.1-.3-.1-1.3-.5-2.4-1.5-.9-.8-1.5-1.8-1.7-2.1-.2-.3 0-.5.1-.6.1-.1.3-.3.4-.5.1-.1.2-.3.3-.4.1-.2 0-.4 0-.5 0-.1-.7-1.6-.9-2.2-.2-.6-.5-.5-.7-.5h-.6c-.2 0-.5.1-.8.4-.3.3-1 1-1 2.4s1 2.8 1.2 3c.1.2 2.1 3.2 5 4.5.7.3 1.3.5 1.7.6.7.2 1.4.2 1.9.1.6-.1 1.7-.7 2-1.4.2-.7.2-1.2.1-1.4-.1-.1-.3-.2-.6-.3z"/><path d="M12 2C6.5 2 2 6.5 2 12c0 1.9.5 3.7 1.5 5.3L2 22l4.9-1.3c1.5.8 3.3 1.3 5.1 1.3 5.5 0 10-4.5 10-10S17.5 2 12 2zm0 18.3c-1.7 0-3.3-.5-4.7-1.3l-.3-.2-3.1.8.8-3-.2-.3c-.9-1.4-1.4-3.1-1.4-4.8 0-4.6 3.8-8.4 8.4-8.4s8.4 3.8 8.4 8.4-3.7 8.8-8.4 8.8z"/></svg>
+</a>
+
+<script src="script.js"></script>
+
+</body>
+</html>
